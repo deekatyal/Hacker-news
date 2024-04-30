@@ -1,0 +1,52 @@
+.top{
+  background-color: #ff6600;
+  height: 30px;
+  width: 90vw;
+  margin: 7px auto auto;
+}
+.topp{
+  display: flex;
+}
+.top-txt{
+  margin: 3px;
+}
+.bottom{
+  background-color: #f6f6ef;
+  width: 90vw;
+  margin:  auto auto;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+
+.bottom-card:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #e0e0e0;
+}
